@@ -15,9 +15,10 @@ import { httpRequestLoadingInterceptor } from "./core/interceptors/http-request-
 import { SeguridadModule } from "./modules/seguridad/seguridad.module";
 import { SharedModule } from "./shared/shared.module";
 import { InfoInvoiceRoutingModule } from "./modules/infoInvoice/infoInvoice-routing.module";
+import { WebInfoInvoiceComponent } from "./modules/infoInvoice/pages/webInfoInvoice.component";
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, WebInfoInvoiceComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
