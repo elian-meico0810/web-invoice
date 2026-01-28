@@ -8,8 +8,8 @@ import { MaterialModule } from "./material.module";
 
 @NgModule({
   declarations: [
-    NavbarComponent,
-    SidebarComponent
+    // NavbarComponent,
+    // SidebarComponent
   ],
   imports: [
     CommonModule,
@@ -19,8 +19,8 @@ import { MaterialModule } from "./material.module";
     MaterialModule
   ],
   exports: [
-    NavbarComponent,
-    SidebarComponent
+    // NavbarComponent,
+    // SidebarComponent
   ]
 })
 export class CoreModule { }

@@ -14,6 +14,7 @@ import { httpRequestHandlerErrorsInterceptor } from "./core/interceptors/http-re
 import { httpRequestLoadingInterceptor } from "./core/interceptors/http-request-loading.interceptor";
 import { SeguridadModule } from "./modules/seguridad/seguridad.module";
 import { SharedModule } from "./shared/shared.module";
+import { InfoInvoiceRoutingModule } from "./modules/infoInvoice/infoInvoice-routing.module";
 
 @NgModule({
   declarations: [AppComponent],
@@ -21,6 +22,7 @@ import { SharedModule } from "./shared/shared.module";
     BrowserModule,
     AppRoutingModule,
     SeguridadModule,
+    InfoInvoiceRoutingModule,
     CoreModule,
     HttpClientModule,
     SharedModule,

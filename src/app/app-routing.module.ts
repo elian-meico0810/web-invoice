@@ -7,10 +7,10 @@ const routes: Routes = [
     pathMatch: 'full',
     redirectTo: 'seguridad'
   },
-  {
-    path: 'seguridad',
+    {
+    path: 'info-invoice',
     loadChildren: () =>
-      import('./modules/seguridad/seguridad-routing.module').then((m) => m.SeguridadRoutingModule)
+      import('./modules/infoInvoice/infoInvoice-routing.module').then((m) => m.InfoInvoiceRoutingModule)
   },
 ];
 
