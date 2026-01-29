@@ -53,7 +53,7 @@
   overflow-y: auto;
   margin-top: 12px;
   min-height: 260px;
-
+  position: relative; 
 }
 
 .meico-header {
@@ -105,8 +105,12 @@
 }
 
 .products-table thead {
-  position: relative;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
 }
+
 
 .products-table thead::after {
   content: '';

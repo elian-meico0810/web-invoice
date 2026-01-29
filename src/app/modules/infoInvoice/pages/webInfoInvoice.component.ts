@@ -41,6 +41,7 @@ export class WebInfoInvoiceComponent implements OnInit {
       totalPaid: 559600,
       payments: [
         { method: 'Efectivo', amount: 250600 },
+        { method: 'Otos', amount: 309000 },
         { method: 'Transferencia', amount: 309000 }
       ]
     }
